@@ -1,0 +1,13 @@
+/venv
+.env
+/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+/scroll_deck/
+/chatbot/
+/RAG/
+.DS_Store
+/.langgraph_api
+/app

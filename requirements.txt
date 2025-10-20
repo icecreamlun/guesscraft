@@ -1,0 +1,6 @@
+openai>=1.44.0
+jsonschema>=4.22.0
+httpx>=0.27.0
+pyyaml>=6.0.2
+python-dotenv>=1.0.1
+
