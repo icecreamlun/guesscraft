@@ -40,6 +40,38 @@ class GameEngine:
     def play(self) -> Dict[str, object]:
         used = 0
         for turn in range(1, self.config.max_turns + 1):
+            # Force GUESS if only one action remains in the budget
+            remaining = self.config.max_turns - used
+            if remaining <= 1:
+                guess_payload = self.make_guess_fn()
+                if not guess_payload:
+                    return {"result": "error", "reason": "no_guess_available"}
+                self.events.append(
+                    Event(
+                        turn=turn,
+                        agent=AgentRole.GUESSER,
+                        action=guess_payload,
+                        timestamp_ms=self._now_ms(),
+                        latency_ms=None,
+                        tokens_in=None,
+                        tokens_out=None,
+                    )
+                )
+                used += 1
+                oid = (guess_payload.get("object_id") or "") if isinstance(guess_payload, dict) else ""
+                name = (guess_payload.get("object_name") or "") if isinstance(guess_payload, dict) else ""
+                success = False
+                if oid:
+                    success = self.check_guess_fn(oid)
+                elif name:
+                    success = self.check_guess_fn(name)
+                return {
+                    "result": "win" if success else "lose",
+                    "turns_used": used,
+                    "guess": guess_payload,
+                    "events": [e.__dict__ for e in self.events],
+                }
+
             # Decide ask vs. guess
             if self.should_guess_fn(used, self.config.max_turns):
                 guess_payload = self.make_guess_fn()
@@ -65,12 +97,16 @@ class GameEngine:
                     success = self.check_guess_fn(oid)
                 elif name:
                     success = self.check_guess_fn(name)
-                return {
-                    "result": "win" if success else "lose",
-                    "turns_used": used,
-                    "guess": guess_payload,
-                    "events": [e.__dict__ for e in self.events],
-                }
+                if success:
+                    return {
+                        "result": "win",
+                        "turns_used": used,
+                        "guess": guess_payload,
+                        "events": [e.__dict__ for e in self.events],
+                    }
+                # Wrong guess: consume one action and move to next iteration
+                # (do not also ask in the same iteration)
+                continue
 
             # Ask a question
             ask_payload = self.ask_fn()

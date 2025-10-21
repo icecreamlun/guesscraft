@@ -3,16 +3,13 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 from typing import Any, Dict
 
 from dotenv import load_dotenv
-from .kb.kb import ObjectKB
-from .kb.index import AttributeIndex
 from .llm.client import LLMClient
-from .agents.attribute_parser import AttributeParser
-from .agents.host import HostRuleBased, HostLLM
-from .agents.guesser import GuesserEntropy
-from .agents.phrasing import GuesserPhraser
+from .agents.host import HostLLM
+from .agents.guesser_llm import GuesserLLM
 from .engine.game_engine import GameEngine, GameConfig
 
 
@@ -27,41 +24,24 @@ def run_one(config_path: str | None) -> Dict[str, Any]:
             config = yaml.safe_load(f) or {}
 
     model = config.get("model", os.getenv("MODEL_NAME", "gpt-4o-mini"))
-    topic = config.get("topic", "apple")
-    host_mode = config.get("host_mode", "rule_based")  # or "llm"
+    topic = config.get("topic", "pear")
 
-    # Build components
-    kb = ObjectKB.from_seed()
-    index = AttributeIndex(kb)
+    # Build components (LLM-only)
     llm = LLMClient(model=model)
-    parser = AttributeParser(kb, llm)
-    phraser = GuesserPhraser(llm)
-    guesser = GuesserEntropy(kb, index, tau_guess_threshold=0.6, phraser=phraser)
+    host = HostLLM(llm=llm, topic_name=topic)
+    guesser = GuesserLLM(llm=llm)
 
-    if host_mode == "llm":
-        host = HostLLM(llm=llm, topic_name=topic)
-        def answer_fn(q: str) -> Dict[str, Any]:
-            return host.answer(q)
-        def check_guess_fn(identifier: str) -> bool:
-            # For LLM host, accept name match ignoring case
-            return identifier.lower() == topic.lower()
-    else:
-        topic_id = topic if topic in kb.obj_by_id else "apple"
-        host = HostRuleBased(kb=kb, attribute_parser=parser, topic_object_id=topic_id)
-        def answer_fn(q: str) -> Dict[str, Any]:
-            return host.answer(q)
-        def check_guess_fn(identifier: str) -> bool:
-            return identifier == host.topic_object_id or identifier.lower() == kb.obj_by_id[host.topic_object_id].name.lower()
+    def answer_fn(q: str) -> Dict[str, Any]:
+        return host.answer(q)
+
+    def check_guess_fn(identifier: str) -> bool:
+        # identifier may be object name guess; accept name match ignoring case
+        return identifier.lower() == topic.lower()
 
     engine = GameEngine(
         ask_fn=guesser.next_question,
         answer_fn=answer_fn,
-        update_fn=lambda payload: (
-            guesser.update_with_answer(
-                attribute_id=str(payload.get("justification", "")).split("=")[0] if payload.get("justification") else str(payload.get("attribute_id", "")),
-                answer=str(payload.get("answer", "unknown")),
-            )
-        ),
+        update_fn=lambda payload: guesser.update_with_answer(payload),
         should_guess_fn=guesser.should_guess,
         make_guess_fn=guesser.make_guess,
         check_guess_fn=check_guess_fn,
@@ -69,6 +49,8 @@ def run_one(config_path: str | None) -> Dict[str, Any]:
     )
 
     result = engine.play()
+    # attach secret topic for console-only visibility
+    result["secret_topic"] = topic
     return result
 
 
@@ -91,6 +73,14 @@ def main() -> None:
     args = parser.parse_args()
     if args.cmd == "one":
         result = run_one(args.config)
+        # Print final outcome first for quick visibility, without exposing to the guesser agent
+        outcome = {
+            "result": result.get("result"),
+            "turns_used": result.get("turns_used"),
+            "answer": result.get("secret_topic"),
+        }
+        print(json.dumps(outcome, ensure_ascii=False, indent=2))
+        # Then print the full trace (events) for auditing
         print(json.dumps(result, ensure_ascii=False, indent=2))
     elif args.cmd == "many":
         from .experiments.runner import run_many

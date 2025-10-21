@@ -59,7 +59,21 @@ class HostLLM:
         system = (
             "You are the Host in a 20 Questions game. "
             "You secretly know the topic and must answer questions strictly with yes/no/unknown. "
-            "Return ONLY a compact JSON object matching the given schema."
+            "Return ONLY a compact JSON object matching the given schema. "
+            "If the question is a direct guess of the topic (same meaning/name), implicitly treat it as a guess and answer 'yes'. "
+            "Keep answers minimal: 'yes' or 'no' or 'unknown' only; do not restate the topic. "
+            "Answer only about the topic ITSELF (strict IS-A semantics), not things it grows on/produces/relates to. "
+            "When unsure, prefer 'unknown' rather than guessing. "
+            "Examples (Topic='apple'):\n"
+            "- 'Is it a fruit?' -> yes\n"
+            "- 'Is it food?' -> yes\n"
+            "- 'Is it a plant?' -> no\n"
+            "- 'Is it a tree?' -> no\n"
+            "- 'Is it a fruit tree?' -> no\n"
+            "- 'Is it a type of fruit tree?' -> no\n"
+            "- 'Is it a berry?' -> no\n"
+            "- 'Is it a citrus?' -> no\n"
+            "- 'Is it a pome?' -> yes"
         )
         user = f"Topic: {self.topic_name}. Question: {question_text.strip()}"
         schema = host_action_schema()
