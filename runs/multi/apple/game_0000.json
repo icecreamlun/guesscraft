@@ -1,6 +1,6 @@
 {
   "result": "win",
-  "turns_used": 18,
+  "turns_used": 19,
   "guess": {
     "type": "make_guess",
     "object_id": null,
@@ -17,7 +17,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079058460,
+      "timestamp_ms": 1761082878691,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -31,7 +31,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079060736,
+      "timestamp_ms": 1761082880699,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -45,7 +45,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079063236,
+      "timestamp_ms": 1761082883096,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -59,7 +59,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079064680,
+      "timestamp_ms": 1761082884539,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -73,7 +73,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079067050,
+      "timestamp_ms": 1761082890822,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -87,7 +87,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079068550,
+      "timestamp_ms": 1761082892538,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -101,7 +101,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079074235,
+      "timestamp_ms": 1761082894935,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -115,7 +115,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079075702,
+      "timestamp_ms": 1761082896475,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -129,7 +129,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079078300,
+      "timestamp_ms": 1761082899769,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -143,7 +143,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079079757,
+      "timestamp_ms": 1761082901262,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -157,7 +157,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079082050,
+      "timestamp_ms": 1761082903662,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -171,7 +171,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079083263,
+      "timestamp_ms": 1761082905113,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -185,7 +185,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079086442,
+      "timestamp_ms": 1761082907765,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -199,7 +199,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079088107,
+      "timestamp_ms": 1761082909211,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -213,7 +213,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079094689,
+      "timestamp_ms": 1761082912707,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -227,7 +227,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079096332,
+      "timestamp_ms": 1761082914487,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -241,7 +241,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079103755,
+      "timestamp_ms": 1761082917452,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -255,7 +255,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079105439,
+      "timestamp_ms": 1761082918949,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -269,7 +269,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079109636,
+      "timestamp_ms": 1761082921331,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -283,7 +283,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079111955,
+      "timestamp_ms": 1761082922844,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -297,7 +297,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079116410,
+      "timestamp_ms": 1761082927560,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -311,7 +311,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079117924,
+      "timestamp_ms": 1761082929057,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -321,11 +321,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a nut or seed?",
+        "question_text": "Is it a nut?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079122583,
+      "timestamp_ms": 1761082931430,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -339,7 +339,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079124041,
+      "timestamp_ms": 1761082933014,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -349,11 +349,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a common fruit?",
+        "question_text": "Is it a melon?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079127911,
+      "timestamp_ms": 1761082936749,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -363,11 +363,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "yes",
+        "answer": "no",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079129706,
+      "timestamp_ms": 1761082938189,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -377,11 +377,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a berry?",
+        "question_text": "Is it a drupe?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079132460,
+      "timestamp_ms": 1761082940885,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -395,7 +395,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079134341,
+      "timestamp_ms": 1761082941875,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -405,11 +405,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a berry?",
+        "question_text": "Is it a seedless fruit?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079143030,
+      "timestamp_ms": 1761082946477,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -423,7 +423,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079144601,
+      "timestamp_ms": 1761082948457,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -433,11 +433,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a common fruit?",
+        "question_text": "Is it a berry?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079149904,
+      "timestamp_ms": 1761082951192,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -447,11 +447,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "yes",
+        "answer": "no",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079151603,
+      "timestamp_ms": 1761082952638,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -465,7 +465,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079154860,
+      "timestamp_ms": 1761082954887,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -479,7 +479,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079156452,
+      "timestamp_ms": 1761082956340,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -488,12 +488,40 @@
       "turn": 18,
       "agent": "guesser",
       "action": {
+        "type": "ask_question",
+        "question_text": "Is it an apple or pear?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761082961265,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 18,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761082963297,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 19,
+      "agent": "guesser",
+      "action": {
         "type": "make_guess",
         "object_id": null,
         "object_name": "Apple",
         "confidence": 0.9
       },
-      "timestamp_ms": 1761079159199,
+      "timestamp_ms": 1761082966104,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null

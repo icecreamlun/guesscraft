@@ -34,9 +34,26 @@ def run_one(config_path: str | None) -> Dict[str, Any]:
     def answer_fn(q: str) -> Dict[str, Any]:
         return host.answer(q)
 
+    def _normalize_tokens(text: str) -> list[str]:
+        import re as _re
+        tokens = _re.findall(r"[a-z0-9]+", text.lower())
+        return tokens
+
     def check_guess_fn(identifier: str) -> bool:
-        # identifier may be object name guess; accept name match ignoring case
-        return identifier.lower() == topic.lower()
+        # Flexible match: consider it correct if the guess contains the topic as a word
+        # - Exact normalized string match
+        # - For single-word topics: topic token appears among guess tokens
+        # - For multi-word topics: all significant topic tokens (len>=3) appear in guess tokens
+        guess_tokens = _normalize_tokens(identifier)
+        topic_tokens = _normalize_tokens(topic)
+        norm_guess = " ".join(guess_tokens)
+        norm_topic = " ".join(topic_tokens)
+        if norm_guess == norm_topic:
+            return True
+        if len(topic_tokens) == 1:
+            return topic_tokens[0] in guess_tokens
+        sig = [t for t in topic_tokens if len(t) >= 3]
+        return all(t in guess_tokens for t in (sig if sig else topic_tokens))
 
     engine = GameEngine(
         ask_fn=guesser.next_question,

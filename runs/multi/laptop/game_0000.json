@@ -4,8 +4,8 @@
   "guess": {
     "type": "make_guess",
     "object_id": null,
-    "object_name": "gaming laptop",
-    "confidence": 0.5
+    "object_name": "Streaming device",
+    "confidence": 0.7
   },
   "events": [
     {
@@ -13,11 +13,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a plant or an animal?",
+        "question_text": "Is it an animal?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079057927,
+      "timestamp_ms": 1761082879412,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -31,13 +31,41 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079059384,
+      "timestamp_ms": 1761082881251,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 2,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a plant?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761082884768,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 2,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761082886249,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 3,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -45,35 +73,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079061682,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 2,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761079063179,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 3,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it food?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761079068700,
+      "timestamp_ms": 1761082889435,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -87,7 +87,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079070012,
+      "timestamp_ms": 1761082891063,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -97,11 +97,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a man-made object?",
+        "question_text": "Is it a manufactured object?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079072548,
+      "timestamp_ms": 1761082893421,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -115,7 +115,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079074227,
+      "timestamp_ms": 1761082894917,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -129,7 +129,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079076599,
+      "timestamp_ms": 1761082897177,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -143,7 +143,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079078076,
+      "timestamp_ms": 1761082898401,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -153,11 +153,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a portable device?",
+        "question_text": "Is it a household item?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079080183,
+      "timestamp_ms": 1761082902446,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -171,7 +171,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079081813,
+      "timestamp_ms": 1761082903804,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -181,45 +181,17 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Does it have a screen?",
+        "question_text": "Is it a kitchen appliance?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079087589,
+      "timestamp_ms": 1761082906644,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 7,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761079088872,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 8,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a smartphone or tablet?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761079094517,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 8,
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
@@ -227,13 +199,97 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079096329,
+      "timestamp_ms": 1761082907999,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 8,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a personal electronic device?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761082910273,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 8,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761082911913,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 9,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a smartphone or tablet?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761082915274,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 9,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761082916666,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 10,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a wearable device?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761082919218,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 10,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761082920580,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 11,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -241,13 +297,13 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079100003,
+      "timestamp_ms": 1761082923654,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
-      "turn": 9,
+      "turn": 11,
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
@@ -255,63 +311,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079102097,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 10,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a computer?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761079109043,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 10,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761079110303,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 11,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a laptop or desktop?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761079114745,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 11,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761079115987,
+      "timestamp_ms": 1761082925272,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -321,11 +321,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a laptop?",
+        "question_text": "Is it a gaming device?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079120861,
+      "timestamp_ms": 1761082927964,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -335,11 +335,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "yes",
+        "answer": "unknown",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079122594,
+      "timestamp_ms": 1761082929355,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -349,11 +349,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a gaming laptop?",
+        "question_text": "Is it a gaming device?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079125875,
+      "timestamp_ms": 1761082932120,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -367,7 +367,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079127293,
+      "timestamp_ms": 1761082933428,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -377,11 +377,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a gaming laptop?",
+        "question_text": "Is it a gaming device?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079130369,
+      "timestamp_ms": 1761082936419,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -395,7 +395,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079131819,
+      "timestamp_ms": 1761082937605,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -405,11 +405,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a gaming laptop?",
+        "question_text": "Is it a gaming device?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079138043,
+      "timestamp_ms": 1761082939932,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -420,38 +420,38 @@
       "action": {
         "type": "answer_yes_no",
         "answer": "unknown",
+        "justification": null,
+        "consistency_score": 0.5
+      },
+      "timestamp_ms": 1761082942155,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 16,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a computer accessory?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761082944647,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 16,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079139498,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 16,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it designed for gaming?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761079144774,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 16,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "unknown",
-        "justification": null,
-        "consistency_score": 0.5
-      },
-      "timestamp_ms": 1761079146362,
+      "timestamp_ms": 1761082946634,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -461,11 +461,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it designed for gaming?",
+        "question_text": "Is it a gaming device?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079149974,
+      "timestamp_ms": 1761082948886,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -479,7 +479,7 @@
         "justification": null,
         "consistency_score": 0.5
       },
-      "timestamp_ms": 1761079151606,
+      "timestamp_ms": 1761082950297,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -489,11 +489,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Does it have a dedicated graphics card?",
+        "question_text": "Is it a wearable device?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079154284,
+      "timestamp_ms": 1761082952643,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -503,11 +503,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "unknown",
+        "answer": "no",
         "justification": null,
-        "consistency_score": 0.5
+        "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079155591,
+      "timestamp_ms": 1761082954173,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -517,11 +517,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it designed for gaming?",
+        "question_text": "Is it a home entertainment device?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079157861,
+      "timestamp_ms": 1761082957718,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -531,11 +531,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "unknown",
+        "answer": "yes",
         "justification": null,
-        "consistency_score": 0.5
+        "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079159210,
+      "timestamp_ms": 1761082959179,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -546,10 +546,10 @@
       "action": {
         "type": "make_guess",
         "object_id": null,
-        "object_name": "gaming laptop",
-        "confidence": 0.5
+        "object_name": "Streaming device",
+        "confidence": 0.7
       },
-      "timestamp_ms": 1761079160611,
+      "timestamp_ms": 1761082960283,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null

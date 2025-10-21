@@ -4,7 +4,7 @@
   "guess": {
     "type": "make_guess",
     "object_id": null,
-    "object_name": "abstract concept",
+    "object_name": "Concept",
     "confidence": 0.7
   },
   "events": [
@@ -17,7 +17,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079058840,
+      "timestamp_ms": 1761082878968,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -31,7 +31,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079060324,
+      "timestamp_ms": 1761082880747,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -45,7 +45,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079062700,
+      "timestamp_ms": 1761082883014,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -59,7 +59,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079064185,
+      "timestamp_ms": 1761082884616,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -73,7 +73,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079066559,
+      "timestamp_ms": 1761082886797,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -87,7 +87,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079068134,
+      "timestamp_ms": 1761082888255,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -101,7 +101,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079070840,
+      "timestamp_ms": 1761082890823,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -115,125 +115,13 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079072264,
+      "timestamp_ms": 1761082892339,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 5,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a tool or device?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761079075027,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 5,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761079076186,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 6,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it furniture?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761079078636,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 6,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761079080378,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 7,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a household item?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761079082838,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 7,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761079084675,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 8,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a vehicle?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761079088748,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 8,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761079090642,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 9,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -241,7 +129,119 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079094121,
+      "timestamp_ms": 1761082895296,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 5,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761082897175,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 6,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a tool?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761082900920,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 6,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761082902497,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 7,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a piece of furniture?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761082904741,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 7,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761082906122,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 8,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a household item?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761082909023,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 8,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761082910679,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 9,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a vehicle?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761082913522,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -255,7 +255,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079095805,
+      "timestamp_ms": 1761082914850,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -265,11 +265,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it clothing?",
+        "question_text": "Is it a toy?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079102565,
+      "timestamp_ms": 1761082917356,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -283,41 +283,13 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079104263,
+      "timestamp_ms": 1761082918617,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 11,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a toy or game?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761079107073,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 11,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761079108392,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 12,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -325,7 +297,35 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079112009,
+      "timestamp_ms": 1761082921398,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 11,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761082922584,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 12,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a piece of clothing?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761082926937,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -339,7 +339,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079113608,
+      "timestamp_ms": 1761082928543,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -353,7 +353,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079118322,
+      "timestamp_ms": 1761082931171,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -367,7 +367,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079119979,
+      "timestamp_ms": 1761082932865,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -377,11 +377,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a piece of machinery?",
+        "question_text": "Is it a tool?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079122438,
+      "timestamp_ms": 1761082937065,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -395,7 +395,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079123892,
+      "timestamp_ms": 1761082938608,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -405,11 +405,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of food?",
+        "question_text": "Is it an appliance?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079126568,
+      "timestamp_ms": 1761082940894,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -423,13 +423,41 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079128334,
+      "timestamp_ms": 1761082942320,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 16,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a type of equipment?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761082947647,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 16,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761082949051,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 17,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -437,35 +465,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079135713,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 16,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761079137337,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 17,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a type of plant?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761079139925,
+      "timestamp_ms": 1761082951494,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -479,7 +479,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079141443,
+      "timestamp_ms": 1761082953094,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -489,11 +489,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of mineral?",
+        "question_text": "Is it a living organism?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079144044,
+      "timestamp_ms": 1761082956159,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -507,7 +507,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079145648,
+      "timestamp_ms": 1761082957186,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -517,11 +517,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of animal?",
+        "question_text": "Is it a type of food?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079148750,
+      "timestamp_ms": 1761082960676,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -535,7 +535,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079150353,
+      "timestamp_ms": 1761082962282,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -546,10 +546,10 @@
       "action": {
         "type": "make_guess",
         "object_id": null,
-        "object_name": "abstract concept",
+        "object_name": "Concept",
         "confidence": 0.7
       },
-      "timestamp_ms": 1761079151748,
+      "timestamp_ms": 1761082963769,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null

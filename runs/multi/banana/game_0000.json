@@ -5,7 +5,7 @@
     "type": "make_guess",
     "object_id": null,
     "object_name": "Passionfruit",
-    "confidence": 0.5
+    "confidence": 0.6
   },
   "events": [
     {
@@ -17,7 +17,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079059847,
+      "timestamp_ms": 1761082878349,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -31,7 +31,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079061530,
+      "timestamp_ms": 1761082879551,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -45,7 +45,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079064317,
+      "timestamp_ms": 1761082882246,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -59,7 +59,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079065858,
+      "timestamp_ms": 1761082884018,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -73,7 +73,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079069020,
+      "timestamp_ms": 1761082887562,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -87,7 +87,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079070463,
+      "timestamp_ms": 1761082889319,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -101,7 +101,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079072774,
+      "timestamp_ms": 1761082892700,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -115,7 +115,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079074233,
+      "timestamp_ms": 1761082894565,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -129,7 +129,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079076698,
+      "timestamp_ms": 1761082897435,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -143,7 +143,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079078213,
+      "timestamp_ms": 1761082898758,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -157,7 +157,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079081066,
+      "timestamp_ms": 1761082903115,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -171,7 +171,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079082892,
+      "timestamp_ms": 1761082904393,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -185,7 +185,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079085519,
+      "timestamp_ms": 1761082906963,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -199,7 +199,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079086964,
+      "timestamp_ms": 1761082908506,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -213,7 +213,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079089494,
+      "timestamp_ms": 1761082910674,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -227,7 +227,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079091032,
+      "timestamp_ms": 1761082912361,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -241,7 +241,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079093798,
+      "timestamp_ms": 1761082916438,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -255,7 +255,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079095799,
+      "timestamp_ms": 1761082917911,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -269,7 +269,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079098812,
+      "timestamp_ms": 1761082920850,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -283,7 +283,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079100272,
+      "timestamp_ms": 1761082922510,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -297,7 +297,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079103361,
+      "timestamp_ms": 1761082928197,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -311,7 +311,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079106291,
+      "timestamp_ms": 1761082929982,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -325,7 +325,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079109665,
+      "timestamp_ms": 1761082934373,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -339,7 +339,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079111698,
+      "timestamp_ms": 1761082935891,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -353,7 +353,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079119139,
+      "timestamp_ms": 1761082938306,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -367,7 +367,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079120710,
+      "timestamp_ms": 1761082939734,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -381,7 +381,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079123655,
+      "timestamp_ms": 1761082942129,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -395,7 +395,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079125251,
+      "timestamp_ms": 1761082943470,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -409,7 +409,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079128822,
+      "timestamp_ms": 1761082946302,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -423,7 +423,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079131240,
+      "timestamp_ms": 1761082947510,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -437,7 +437,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079134239,
+      "timestamp_ms": 1761082953620,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -451,7 +451,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079135991,
+      "timestamp_ms": 1761082955187,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -465,7 +465,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079138831,
+      "timestamp_ms": 1761082958010,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -479,7 +479,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079140544,
+      "timestamp_ms": 1761082959735,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -493,7 +493,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079143523,
+      "timestamp_ms": 1761082964538,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -507,7 +507,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079145022,
+      "timestamp_ms": 1761082966170,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -521,7 +521,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079147836,
+      "timestamp_ms": 1761082971141,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -535,7 +535,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079149372,
+      "timestamp_ms": 1761082972394,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -547,9 +547,9 @@
         "type": "make_guess",
         "object_id": null,
         "object_name": "Passionfruit",
-        "confidence": 0.5
+        "confidence": 0.6
       },
-      "timestamp_ms": 1761079150782,
+      "timestamp_ms": 1761082973720,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null

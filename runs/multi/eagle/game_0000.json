@@ -1,11 +1,11 @@
 {
   "result": "win",
-  "turns_used": 9,
+  "turns_used": 10,
   "guess": {
     "type": "make_guess",
     "object_id": null,
     "object_name": "Eagle",
-    "confidence": 0.95
+    "confidence": 1.0
   },
   "events": [
     {
@@ -17,7 +17,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079058457,
+      "timestamp_ms": 1761082878404,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -31,7 +31,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079059860,
+      "timestamp_ms": 1761082880150,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -45,7 +45,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079062457,
+      "timestamp_ms": 1761082883560,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -59,7 +59,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079064094,
+      "timestamp_ms": 1761082884821,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -73,7 +73,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079069759,
+      "timestamp_ms": 1761082888583,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -87,7 +87,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079071374,
+      "timestamp_ms": 1761082890226,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -101,7 +101,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079074787,
+      "timestamp_ms": 1761082893345,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -115,7 +115,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079076352,
+      "timestamp_ms": 1761082894693,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -125,11 +125,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a carnivorous bird?",
+        "question_text": "Is it a water bird?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079079742,
+      "timestamp_ms": 1761082897552,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -139,17 +139,45 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "yes",
+        "answer": "no",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079081398,
+      "timestamp_ms": 1761082899047,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 6,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a songbird?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761082902273,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 6,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761082903805,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 7,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -157,13 +185,13 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079084025,
+      "timestamp_ms": 1761082906241,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
-      "turn": 6,
+      "turn": 7,
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
@@ -171,13 +199,13 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079085546,
+      "timestamp_ms": 1761082907925,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
-      "turn": 7,
+      "turn": 8,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -185,35 +213,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761079088104,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 7,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761079089464,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 8,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it an eagle?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761079096380,
+      "timestamp_ms": 1761082910723,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -227,7 +227,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761079097709,
+      "timestamp_ms": 1761082912188,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -236,12 +236,40 @@
       "turn": 9,
       "agent": "guesser",
       "action": {
+        "type": "ask_question",
+        "question_text": "Is it an eagle?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761082914391,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 9,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761082915971,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 10,
+      "agent": "guesser",
+      "action": {
         "type": "make_guess",
         "object_id": null,
         "object_name": "Eagle",
-        "confidence": 0.95
+        "confidence": 1.0
       },
-      "timestamp_ms": 1761079100652,
+      "timestamp_ms": 1761082918808,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
