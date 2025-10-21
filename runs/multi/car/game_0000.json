@@ -1,11 +1,11 @@
 {
-  "result": "lose",
+  "result": "win",
   "turns_used": 20,
   "guess": {
     "type": "make_guess",
     "object_id": null,
-    "object_name": "office equipment",
-    "confidence": 0.5
+    "object_name": "car",
+    "confidence": 0.7
   },
   "events": [
     {
@@ -13,11 +13,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it an animal?",
+        "question_text": "Is it a living organism?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082878592,
+      "timestamp_ms": 1761088880492,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -31,7 +31,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082881529,
+      "timestamp_ms": 1761088882083,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -41,11 +41,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a plant?",
+        "question_text": "Is it a food item?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082884022,
+      "timestamp_ms": 1761088884894,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -59,7 +59,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082885723,
+      "timestamp_ms": 1761088886145,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -69,11 +69,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a mineral?",
+        "question_text": "Is it a household item?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082888240,
+      "timestamp_ms": 1761088888599,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -87,41 +87,13 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082889910,
+      "timestamp_ms": 1761088890751,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 4,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a manufactured item?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761082892144,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 4,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761082894403,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 5,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -129,7 +101,35 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082896843,
+      "timestamp_ms": 1761088893737,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 4,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761088894888,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 5,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it an electronic device?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761088897100,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -139,11 +139,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "yes",
+        "answer": "no",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082898418,
+      "timestamp_ms": 1761088898464,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -153,11 +153,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it an electronic device?",
+        "question_text": "Is it a manual tool?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082900815,
+      "timestamp_ms": 1761088901093,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -171,41 +171,13 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082902180,
+      "timestamp_ms": 1761088902282,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 7,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a common household item?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761082907247,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 7,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761082908806,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 8,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -213,7 +185,35 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082911018,
+      "timestamp_ms": 1761088904975,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 7,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761088906059,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 8,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a type of equipment?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761088909231,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -223,11 +223,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082912683,
+      "timestamp_ms": 1761088910774,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -237,11 +237,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of equipment?",
+        "question_text": "Is it a type of machinery?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082916362,
+      "timestamp_ms": 1761088913474,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -255,7 +255,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082917668,
+      "timestamp_ms": 1761088915132,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -269,7 +269,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082920477,
+      "timestamp_ms": 1761088918383,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -283,7 +283,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082921868,
+      "timestamp_ms": 1761088919738,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -297,7 +297,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082924898,
+      "timestamp_ms": 1761088922599,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -311,13 +311,41 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082926476,
+      "timestamp_ms": 1761088924096,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 12,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a type of equipment?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761088927868,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 12,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761088930011,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 13,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -325,13 +353,13 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082930851,
+      "timestamp_ms": 1761088932753,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
-      "turn": 12,
+      "turn": 13,
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
@@ -339,35 +367,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082932552,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 13,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it heavy machinery?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761082935423,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 13,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761082937612,
+      "timestamp_ms": 1761088933998,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -377,11 +377,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of equipment?",
+        "question_text": "Is it a type of machinery?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082940524,
+      "timestamp_ms": 1761088937506,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -395,41 +395,13 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082941907,
+      "timestamp_ms": 1761088938535,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 15,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a type of equipment?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761082944541,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 15,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761082946099,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 16,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -437,7 +409,35 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082949045,
+      "timestamp_ms": 1761088943240,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 15,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761088944528,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 16,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it used in agriculture?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761088947385,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -451,41 +451,13 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082951165,
+      "timestamp_ms": 1761088948562,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 17,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it used in agriculture?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761082956303,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 17,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761082957943,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 18,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -493,7 +465,35 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082961593,
+      "timestamp_ms": 1761088951310,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 17,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761088952748,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 18,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it used in transportation?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761088955314,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -503,11 +503,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082962999,
+      "timestamp_ms": 1761088956488,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -517,11 +517,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it used in healthcare?",
+        "question_text": "Is it a vehicle?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082967672,
+      "timestamp_ms": 1761088959202,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -531,11 +531,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082970056,
+      "timestamp_ms": 1761088960490,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -546,10 +546,10 @@
       "action": {
         "type": "make_guess",
         "object_id": null,
-        "object_name": "office equipment",
-        "confidence": 0.5
+        "object_name": "car",
+        "confidence": 0.7
       },
-      "timestamp_ms": 1761082972394,
+      "timestamp_ms": 1761088961926,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null

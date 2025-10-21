@@ -1,11 +1,11 @@
 {
-  "result": "lose",
-  "turns_used": 20,
+  "result": "win",
+  "turns_used": 19,
   "guess": {
     "type": "make_guess",
     "object_id": null,
-    "object_name": "wolf",
-    "confidence": 0.7
+    "object_name": "whale",
+    "confidence": 1.0
   },
   "events": [
     {
@@ -13,11 +13,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it an animal?",
+        "question_text": "Is it a living organism?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082879821,
+      "timestamp_ms": 1761088880231,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -31,7 +31,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082881559,
+      "timestamp_ms": 1761088881307,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -41,11 +41,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a mammal?",
+        "question_text": "Is it an animal?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082884356,
+      "timestamp_ms": 1761088884598,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -59,7 +59,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082885805,
+      "timestamp_ms": 1761088886428,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -69,11 +69,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Does it have fur or hair?",
+        "question_text": "Does it have fur or feathers?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082889389,
+      "timestamp_ms": 1761088889040,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -87,7 +87,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082890974,
+      "timestamp_ms": 1761088890707,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -101,7 +101,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082894671,
+      "timestamp_ms": 1761088893503,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -115,7 +115,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082895973,
+      "timestamp_ms": 1761088895096,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -125,11 +125,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a reptile or amphibian?",
+        "question_text": "Is it a mammal?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082898999,
+      "timestamp_ms": 1761088898361,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -139,11 +139,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082901496,
+      "timestamp_ms": 1761088902016,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -153,11 +153,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a bird?",
+        "question_text": "Is it a carnivore?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082903791,
+      "timestamp_ms": 1761088905426,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -167,11 +167,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082905873,
+      "timestamp_ms": 1761088906860,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -181,11 +181,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a fish?",
+        "question_text": "Is it a domestic animal?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082909385,
+      "timestamp_ms": 1761088910085,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -199,7 +199,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082911078,
+      "timestamp_ms": 1761088911911,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -209,11 +209,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it an insect?",
+        "question_text": "Is it a big cat?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082913435,
+      "timestamp_ms": 1761088914916,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -227,7 +227,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082914982,
+      "timestamp_ms": 1761088916623,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -237,11 +237,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of amphibian?",
+        "question_text": "Is it a small cat?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082920525,
+      "timestamp_ms": 1761088919370,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -255,7 +255,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082922021,
+      "timestamp_ms": 1761088921088,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -265,11 +265,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of reptile?",
+        "question_text": "Is it a wild carnivore?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082925739,
+      "timestamp_ms": 1761088923858,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -279,11 +279,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082926932,
+      "timestamp_ms": 1761088925240,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -293,11 +293,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of rodent?",
+        "question_text": "Is it larger than a wolf?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082930099,
+      "timestamp_ms": 1761088928214,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -307,11 +307,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082931668,
+      "timestamp_ms": 1761088929882,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -321,11 +321,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of carnivore?",
+        "question_text": "Is it a bear?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082934981,
+      "timestamp_ms": 1761088932707,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -335,11 +335,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "yes",
+        "answer": "no",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082936752,
+      "timestamp_ms": 1761088934488,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -349,11 +349,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of herbivore?",
+        "question_text": "Is it a large feline?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082941957,
+      "timestamp_ms": 1761088936907,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -363,11 +363,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "unknown",
+        "answer": "no",
         "justification": null,
-        "consistency_score": 0.5
+        "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082943951,
+      "timestamp_ms": 1761088938053,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -377,11 +377,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of herbivore?",
+        "question_text": "Is it a canid?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082946398,
+      "timestamp_ms": 1761088943662,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -391,11 +391,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "unknown",
+        "answer": "no",
         "justification": null,
-        "consistency_score": 0.5
+        "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082947970,
+      "timestamp_ms": 1761088945162,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -405,11 +405,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of mammal?",
+        "question_text": "Is it a large carnivore?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082950908,
+      "timestamp_ms": 1761088947906,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -423,7 +423,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082952341,
+      "timestamp_ms": 1761088949438,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -433,11 +433,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of omnivore?",
+        "question_text": "Is it a marine animal?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082955440,
+      "timestamp_ms": 1761088952427,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -447,11 +447,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082956907,
+      "timestamp_ms": 1761088953735,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -461,11 +461,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of large carnivore?",
+        "question_text": "Is it a large marine mammal?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082960166,
+      "timestamp_ms": 1761088958112,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -479,7 +479,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082961859,
+      "timestamp_ms": 1761088959631,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -489,11 +489,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of big cat?",
+        "question_text": "Is it a whale?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761082964380,
+      "timestamp_ms": 1761088963971,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -503,53 +503,25 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761082965805,
+      "timestamp_ms": 1761088965470,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 19,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a type of bear?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761082968323,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 19,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761082969745,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 20,
       "agent": "guesser",
       "action": {
         "type": "make_guess",
         "object_id": null,
-        "object_name": "wolf",
-        "confidence": 0.7
+        "object_name": "whale",
+        "confidence": 1.0
       },
-      "timestamp_ms": 1761082970999,
+      "timestamp_ms": 1761088967831,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null

@@ -1,7 +1,7 @@
 {
   "games": 1,
-  "wins": 0,
-  "win_rate": 0.0,
-  "mean_turns": 20.0,
-  "mean_turns_wins": 0.0
+  "wins": 1,
+  "win_rate": 1.0,
+  "mean_turns": 14.0,
+  "mean_turns_wins": 14.0
 }

@@ -1,15 +1,20 @@
 {
   "topics": 10,
-  "wins": 5,
+  "wins": 6,
   "games": 10,
-  "win_rate": 0.5,
+  "win_rate": 0.6,
   "per_topic": {
-    "cat": {
+    "eagle": {
       "wins": 1,
       "games": 1,
       "win_rate": 1.0
     },
-    "eagle": {
+    "banana": {
+      "wins": 1,
+      "games": 1,
+      "win_rate": 1.0
+    },
+    "apple": {
       "wins": 1,
       "games": 1,
       "win_rate": 1.0
@@ -19,37 +24,32 @@
       "games": 1,
       "win_rate": 1.0
     },
-    "laptop": {
-      "wins": 0,
+    "car": {
+      "wins": 1,
       "games": 1,
-      "win_rate": 0.0
+      "win_rate": 1.0
     },
     "eiffel_tower": {
       "wins": 0,
       "games": 1,
       "win_rate": 0.0
     },
-    "apple": {
+    "cat": {
+      "wins": 0,
+      "games": 1,
+      "win_rate": 0.0
+    },
+    "whale": {
       "wins": 1,
       "games": 1,
       "win_rate": 1.0
     },
     "dog": {
-      "wins": 1,
-      "games": 1,
-      "win_rate": 1.0
-    },
-    "whale": {
       "wins": 0,
       "games": 1,
       "win_rate": 0.0
     },
-    "car": {
-      "wins": 0,
-      "games": 1,
-      "win_rate": 0.0
-    },
-    "banana": {
+    "laptop": {
       "wins": 0,
       "games": 1,
       "win_rate": 0.0
