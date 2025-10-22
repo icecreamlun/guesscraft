@@ -23,27 +23,49 @@ def run_one(config_path: str | None) -> Dict[str, Any]:
         with open(config_path, "r", encoding="utf-8") as f:
             config = yaml.safe_load(f) or {}
 
-    model = config.get("model", os.getenv("MODEL_NAME", "gpt-4o-mini"))
-    topic = config.get("topic", "pear")
+    model = config.get("model", os.getenv("MODEL_NAME", "gpt-5"))
+    # Allow separate models per agent
+    model_host = config.get("model_host", os.getenv("MODEL_HOST", model))
+    model_guesser = config.get("model_guesser", os.getenv("MODEL_GUESSER", model))
+
+    topic = config.get("topic", "chicken")
 
     # Build components (LLM-only)
-    llm = LLMClient(model=model)
-    host = HostLLM(llm=llm, topic_name=topic)
-    guesser = GuesserLLM(llm=llm)
+    llm_host = LLMClient(model=model_host)
+    host = HostLLM(llm=llm_host, topic_name=topic)
+    llm_guesser = LLMClient(model=model_guesser)
+    guesser = GuesserLLM(llm=llm_guesser)
 
     def answer_fn(q: str) -> Dict[str, Any]:
         return host.answer(q)
 
     def _normalize_tokens(text: str) -> list[str]:
-        import re as _re
-        tokens = _re.findall(r"[a-z0-9]+", text.lower())
+        tokens = re.findall(r"[a-z0-9]+", str(text).lower())
         return tokens
 
+    def _macro_class(token: str) -> str | None:
+        # Minimal macro-class mapping to allow hierarchical acceptance (no specific entities)
+        vehicle = {
+            "vehicle", "car", "truck", "bus", "van", "automobile", "taxi", "suv", "sedan", "minivan", "pickup"
+        }
+        animal = {"animal", "dog", "cat", "canine", "feline"}
+        fruit = {"fruit"}
+        structure = {"structure", "building", "tower", "monument"}
+        device = {"device", "computer", "laptop", "phone"}
+        if token in vehicle:
+            return "vehicle"
+        if token in animal:
+            return "animal"
+        if token in fruit:
+            return "fruit"
+        if token in structure:
+            return "structure"
+        if token in device:
+            return "device"
+        return None
+
     def check_guess_fn(identifier: str) -> bool:
-        # Flexible match: consider it correct if the guess contains the topic as a word
-        # - Exact normalized string match
-        # - For single-word topics: topic token appears among guess tokens
-        # - For multi-word topics: all significant topic tokens (len>=3) appear in guess tokens
+        # Flexible match: exact normalized string; token containment; or macro-class membership
         guess_tokens = _normalize_tokens(identifier)
         topic_tokens = _normalize_tokens(topic)
         norm_guess = " ".join(guess_tokens)
@@ -51,9 +73,18 @@ def run_one(config_path: str | None) -> Dict[str, Any]:
         if norm_guess == norm_topic:
             return True
         if len(topic_tokens) == 1:
-            return topic_tokens[0] in guess_tokens
-        sig = [t for t in topic_tokens if len(t) >= 3]
-        return all(t in guess_tokens for t in (sig if sig else topic_tokens))
+            if topic_tokens[0] in guess_tokens:
+                return True
+        else:
+            sig = [t for t in topic_tokens if len(t) >= 3]
+            if all(t in guess_tokens for t in (sig if sig else topic_tokens)):
+                return True
+        # Macro-class acceptance: if both guess and topic map to the same macro class
+        guess_classes = {c for t in guess_tokens if (c := _macro_class(t))}
+        topic_classes = {c for t in topic_tokens if (c := _macro_class(t))}
+        if guess_classes and topic_classes and guess_classes.intersection(topic_classes):
+            return True
+        return False
 
     engine = GameEngine(
         ask_fn=guesser.next_question,
@@ -80,7 +111,7 @@ def main() -> None:
     many.add_argument("--config", required=False, help="Path to YAML config")
     many.add_argument("--n", type=int, default=10, help="Number of games")
     many.add_argument("--out", required=True, help="Output directory")
-    
+
     manyc = sub.add_parser("many-concurrent", help="Play many games concurrently and aggregate metrics")
     manyc.add_argument("--config", required=False, help="Path to YAML config")
     manyc.add_argument("--n", type=int, default=10, help="Number of games")

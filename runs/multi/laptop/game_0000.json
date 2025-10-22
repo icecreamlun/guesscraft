@@ -1,11 +1,11 @@
 {
-  "result": "lose",
-  "turns_used": 20,
+  "result": "win",
+  "turns_used": 13,
   "guess": {
     "type": "make_guess",
     "object_id": null,
-    "object_name": "email",
-    "confidence": 0.7
+    "object_name": "Dell laptop",
+    "confidence": 0.9
   },
   "events": [
     {
@@ -17,7 +17,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088879974,
+      "timestamp_ms": 1761102655133,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -31,7 +31,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088882551,
+      "timestamp_ms": 1761102657056,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -45,7 +45,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088886436,
+      "timestamp_ms": 1761102660081,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -59,7 +59,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088887629,
+      "timestamp_ms": 1761102661582,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -69,11 +69,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a tool or appliance?",
+        "question_text": "Is it a tool or device?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088890460,
+      "timestamp_ms": 1761102664141,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -87,7 +87,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088891806,
+      "timestamp_ms": 1761102665312,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -101,7 +101,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088894225,
+      "timestamp_ms": 1761102668313,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -115,97 +115,13 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088898567,
+      "timestamp_ms": 1761102669737,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 5,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a household item?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088902322,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 5,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088904439,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 6,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it used for cooking?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088906798,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 6,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088909358,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 7,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it used for cleaning?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088912003,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 7,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088913840,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 8,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -213,7 +129,91 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088917155,
+      "timestamp_ms": 1761102672176,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 5,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102673640,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 6,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a smartphone?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102676408,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 6,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102678047,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 7,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a tablet or laptop?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102681615,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 7,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102681615,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 8,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a tablet?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102684596,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -223,11 +223,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "yes",
+        "answer": "no",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088918742,
+      "timestamp_ms": 1761102686077,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -237,11 +237,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a smartphone or computer?",
+        "question_text": "Is it a laptop?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088920900,
+      "timestamp_ms": 1761102688499,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -251,11 +251,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088922433,
+      "timestamp_ms": 1761102688499,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -265,157 +265,17 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a gaming device?",
+        "question_text": "Is it a Windows laptop?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088925694,
+      "timestamp_ms": 1761102691502,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 10,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "unknown",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088927392,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 11,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a gaming device?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088930516,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 11,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "unknown",
-        "justification": null,
-        "consistency_score": 0.5
-      },
-      "timestamp_ms": 1761088931874,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 12,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a gaming console?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088934079,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 12,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088935237,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 13,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a wearable device?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088939012,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 13,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088940316,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 14,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a handheld gaming device?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088943391,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 14,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088944947,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 15,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a device for social media?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088952325,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 15,
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
@@ -423,133 +283,77 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088953567,
+      "timestamp_ms": 1761102691502,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
-      "turn": 16,
+      "turn": 11,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a messaging app?",
+        "question_text": "Is it a gaming laptop?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088957343,
+      "timestamp_ms": 1761102694470,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
-      "turn": 16,
+      "turn": 11,
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088959144,
+      "timestamp_ms": 1761102694470,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
-      "turn": 17,
+      "turn": 12,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a social media platform?",
+        "question_text": "Is it a Dell laptop?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088961490,
+      "timestamp_ms": 1761102697312,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
-      "turn": 17,
+      "turn": 12,
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088962859,
+      "timestamp_ms": 1761102697312,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
-      "turn": 18,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a social media app?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088965957,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 18,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088967119,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 19,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a video sharing app?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088970388,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 19,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088972102,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 20,
+      "turn": 13,
       "agent": "guesser",
       "action": {
         "type": "make_guess",
         "object_id": null,
-        "object_name": "email",
-        "confidence": 0.7
+        "object_name": "Dell laptop",
+        "confidence": 0.9
       },
-      "timestamp_ms": 1761088974917,
+      "timestamp_ms": 1761102699192,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null

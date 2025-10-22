@@ -4,7 +4,7 @@
   "guess": {
     "type": "make_guess",
     "object_id": null,
-    "object_name": "tabby",
+    "object_name": "Bengal",
     "confidence": 0.7
   },
   "events": [
@@ -17,7 +17,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088880706,
+      "timestamp_ms": 1761102655713,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -31,7 +31,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088881985,
+      "timestamp_ms": 1761102657083,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -45,7 +45,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088884304,
+      "timestamp_ms": 1761102660134,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -59,7 +59,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088885679,
+      "timestamp_ms": 1761102662057,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -73,7 +73,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088890275,
+      "timestamp_ms": 1761102664546,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -87,7 +87,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088891868,
+      "timestamp_ms": 1761102665877,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -101,7 +101,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088894267,
+      "timestamp_ms": 1761102669460,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -115,7 +115,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088895772,
+      "timestamp_ms": 1761102670834,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -129,7 +129,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088898975,
+      "timestamp_ms": 1761102673555,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -143,7 +143,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088900171,
+      "timestamp_ms": 1761102675705,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -153,11 +153,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a domesticated animal?",
+        "question_text": "Is it a domestic animal?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088904038,
+      "timestamp_ms": 1761102678277,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -171,7 +171,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088905678,
+      "timestamp_ms": 1761102679527,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -181,11 +181,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it commonly kept as a pet?",
+        "question_text": "Is it a specific breed of domestic animal?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088908487,
+      "timestamp_ms": 1761102683364,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -199,7 +199,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088909952,
+      "timestamp_ms": 1761102684942,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -209,11 +209,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a dog or cat?",
+        "question_text": "Is it a specific breed?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088913328,
+      "timestamp_ms": 1761102687332,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -223,11 +223,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "yes",
+        "answer": "unknown",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088914447,
+      "timestamp_ms": 1761102688751,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -237,11 +237,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a dog?",
+        "question_text": "Is it a specific breed of dog?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088917748,
+      "timestamp_ms": 1761102691606,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -255,7 +255,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088919826,
+      "timestamp_ms": 1761102692741,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -269,7 +269,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088922842,
+      "timestamp_ms": 1761102696453,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -279,157 +279,17 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088924255,
+      "timestamp_ms": 1761102696453,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 11,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a breed recognized by cat registries?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088926844,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 11,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "unknown",
-        "justification": null,
-        "consistency_score": 0.5
-      },
-      "timestamp_ms": 1761088928146,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 12,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a purebred cat?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088931613,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 12,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "unknown",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088933252,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 13,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a mixed breed cat?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088935448,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 13,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "unknown",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088936586,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 14,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a common breed of cat?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088939612,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 14,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "unknown",
-        "justification": null,
-        "consistency_score": 0.5
-      },
-      "timestamp_ms": 1761088941268,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 15,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a common breed of cat?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088944131,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 15,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "unknown",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088945071,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 16,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -437,7 +297,147 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088949709,
+      "timestamp_ms": 1761102699358,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 11,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102699358,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 12,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a popular breed of cat?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102701935,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 12,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102701935,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 13,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a rare breed of cat?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102704829,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 13,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102704829,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 14,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a rare breed of cat?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102709220,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 14,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102709220,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 15,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a specific rare breed of cat?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102711865,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 15,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102711866,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 16,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a specific rare breed of cat?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102715045,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -447,11 +447,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088950895,
+      "timestamp_ms": 1761102715045,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -461,73 +461,17 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a common mixed breed cat?",
+        "question_text": "Is it a specific rare breed of cat?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088955793,
+      "timestamp_ms": 1761102718007,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 17,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "unknown",
-        "justification": null,
-        "consistency_score": 0.5
-      },
-      "timestamp_ms": 1761088956959,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 18,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a common mixed breed cat?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088960104,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 18,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "unknown",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088961388,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 19,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a domestic cat?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088964489,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 19,
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
@@ -535,7 +479,63 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088966054,
+      "timestamp_ms": 1761102718007,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 18,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it known for a specific color pattern?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102720583,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 18,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102721981,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 19,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it known for a specific color pattern?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102724340,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 19,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "unknown",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102725633,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -546,10 +546,10 @@
       "action": {
         "type": "make_guess",
         "object_id": null,
-        "object_name": "tabby",
+        "object_name": "Bengal",
         "confidence": 0.7
       },
-      "timestamp_ms": 1761088967272,
+      "timestamp_ms": 1761102726735,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null

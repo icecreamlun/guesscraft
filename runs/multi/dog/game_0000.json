@@ -1,11 +1,11 @@
 {
-  "result": "lose",
-  "turns_used": 20,
+  "result": "win",
+  "turns_used": 9,
   "guess": {
     "type": "make_guess",
     "object_id": null,
-    "object_name": "fox",
-    "confidence": 0.6
+    "object_name": "Dog",
+    "confidence": 1.0
   },
   "events": [
     {
@@ -17,7 +17,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088880054,
+      "timestamp_ms": 1761102654168,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -31,7 +31,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088881771,
+      "timestamp_ms": 1761102656544,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -45,7 +45,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088884724,
+      "timestamp_ms": 1761102659203,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -59,13 +59,41 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088886487,
+      "timestamp_ms": 1761102660617,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 3,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Does it have fur or feathers?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102663001,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 3,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102664235,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 4,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -73,35 +101,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088891036,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 3,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088892593,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 4,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Does it give live birth?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088895025,
+      "timestamp_ms": 1761102667126,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -115,7 +115,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088896798,
+      "timestamp_ms": 1761102668519,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -129,7 +129,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088899606,
+      "timestamp_ms": 1761102671575,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -143,7 +143,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088900898,
+      "timestamp_ms": 1761102672707,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -153,11 +153,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a primate?",
+        "question_text": "Is it a domestic animal?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088904659,
+      "timestamp_ms": 1761102675850,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -167,11 +167,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088906434,
+      "timestamp_ms": 1761102677034,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -181,11 +181,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a big cat?",
+        "question_text": "Is it a cat?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088910131,
+      "timestamp_ms": 1761102679644,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -199,7 +199,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088911243,
+      "timestamp_ms": 1761102680986,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -209,11 +209,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a bear?",
+        "question_text": "Is it a dog?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088914171,
+      "timestamp_ms": 1761102683697,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -223,333 +223,25 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088915822,
+      "timestamp_ms": 1761102683697,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 9,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it larger than a wolf?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088918522,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 9,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088920092,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 10,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it smaller than a domestic cat?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088922645,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 10,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088925013,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 11,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a small carnivore?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088928280,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 11,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088930241,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 12,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a member of the weasel family?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088933536,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 12,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088935158,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 13,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a member of the cat family?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088938510,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 13,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088940576,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 14,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a member of the dog family?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088943100,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 14,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088944648,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 15,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a fox?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088947687,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 15,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088949363,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 16,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a coyote?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088953962,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 16,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088955313,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 17,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a small dog?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088961092,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 17,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "unknown",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088962222,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 18,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a small dog?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088966383,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 18,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "unknown",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088968429,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 19,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a small dog?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088971447,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 19,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "unknown",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088973259,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 20,
       "agent": "guesser",
       "action": {
         "type": "make_guess",
         "object_id": null,
-        "object_name": "fox",
-        "confidence": 0.6
+        "object_name": "Dog",
+        "confidence": 1.0
       },
-      "timestamp_ms": 1761088974429,
+      "timestamp_ms": 1761102685923,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null

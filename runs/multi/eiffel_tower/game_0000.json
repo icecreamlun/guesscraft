@@ -4,8 +4,8 @@
   "guess": {
     "type": "make_guess",
     "object_id": null,
-    "object_name": "electronic device",
-    "confidence": 0.5
+    "object_name": "mural",
+    "confidence": 0.7
   },
   "events": [
     {
@@ -17,7 +17,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088881222,
+      "timestamp_ms": 1761102653385,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -31,7 +31,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088882529,
+      "timestamp_ms": 1761102655512,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -45,7 +45,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088885401,
+      "timestamp_ms": 1761102658007,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -59,7 +59,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088887064,
+      "timestamp_ms": 1761102660079,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -73,7 +73,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088890372,
+      "timestamp_ms": 1761102663956,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -87,41 +87,13 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088891823,
+      "timestamp_ms": 1761102665567,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 4,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a piece of furniture?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088894746,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 4,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088896185,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 5,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -129,7 +101,35 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088898787,
+      "timestamp_ms": 1761102668522,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 4,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102669980,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 5,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a piece of furniture?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102672709,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -143,41 +143,13 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088900429,
+      "timestamp_ms": 1761102674300,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 6,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a vehicle?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088903074,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 6,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088904604,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 7,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -185,7 +157,35 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088909036,
+      "timestamp_ms": 1761102676676,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 6,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102678566,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 7,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a container or storage item?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102681550,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -199,41 +199,13 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088910246,
+      "timestamp_ms": 1761102683466,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 8,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a household item?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088912693,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 8,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088914222,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 9,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -241,7 +213,35 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088917379,
+      "timestamp_ms": 1761102686457,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 8,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102688356,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 9,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a piece of art?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102690688,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -251,11 +251,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088918944,
+      "timestamp_ms": 1761102691898,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -265,11 +265,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a piece of equipment?",
+        "question_text": "Is it a painting or sculpture?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088921333,
+      "timestamp_ms": 1761102694321,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -283,7 +283,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088922766,
+      "timestamp_ms": 1761102695992,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -293,11 +293,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of clothing?",
+        "question_text": "Is it a print or photograph?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088925100,
+      "timestamp_ms": 1761102699166,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -311,7 +311,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088926849,
+      "timestamp_ms": 1761102700262,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -321,11 +321,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of accessory?",
+        "question_text": "Is it a craft or installation?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088929185,
+      "timestamp_ms": 1761102702522,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -335,11 +335,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088930844,
+      "timestamp_ms": 1761102703623,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -349,11 +349,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of container?",
+        "question_text": "Is it a functional craft or decorative installation?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088933834,
+      "timestamp_ms": 1761102706062,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -363,11 +363,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "unknown",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088935376,
+      "timestamp_ms": 1761102707168,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -377,11 +377,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a natural object?",
+        "question_text": "Is it a functional craft?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088938831,
+      "timestamp_ms": 1761102709390,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -395,7 +395,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088940313,
+      "timestamp_ms": 1761102710777,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -405,11 +405,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of food?",
+        "question_text": "Is it a decorative installation?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088943361,
+      "timestamp_ms": 1761102713303,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -419,11 +419,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088944924,
+      "timestamp_ms": 1761102714483,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -433,11 +433,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of tool?",
+        "question_text": "Is it a type of installation?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088947534,
+      "timestamp_ms": 1761102716940,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -447,11 +447,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088950320,
+      "timestamp_ms": 1761102718151,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -461,11 +461,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of plant?",
+        "question_text": "Is it a type of installation?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088952890,
+      "timestamp_ms": 1761102720785,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -475,11 +475,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088954262,
+      "timestamp_ms": 1761102721806,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -489,11 +489,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of animal?",
+        "question_text": "Is it a temporary installation?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088956759,
+      "timestamp_ms": 1761102724195,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -507,7 +507,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088958113,
+      "timestamp_ms": 1761102725354,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -517,11 +517,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of vehicle?",
+        "question_text": "Is it an interactive installation?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088960254,
+      "timestamp_ms": 1761102728374,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -535,7 +535,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088961940,
+      "timestamp_ms": 1761102729569,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -546,10 +546,10 @@
       "action": {
         "type": "make_guess",
         "object_id": null,
-        "object_name": "electronic device",
-        "confidence": 0.5
+        "object_name": "mural",
+        "confidence": 0.7
       },
-      "timestamp_ms": 1761088963602,
+      "timestamp_ms": 1761102730585,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null

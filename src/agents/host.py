@@ -56,6 +56,29 @@ class HostLLM:
     topic_name: str
 
     def answer(self, question_text: str) -> Dict[str, object]:
+        # Heuristic: if the question appears to directly name a specialization of the topic
+        # with the topic as the head noun (e.g., "small dog" when topic is "dog"), answer yes.
+        # This avoids returning unknown for modifier+topic forms.
+        def _normalize_tokens(text: str) -> list[str]:
+            import re as _re
+            return _re.findall(r"[a-z0-9]+", text.lower())
+
+        q_tokens = _normalize_tokens(question_text)
+        t_tokens = _normalize_tokens(self.topic_name)
+        if t_tokens:
+            topic_last = t_tokens[-1]
+            if q_tokens:
+                q_last = q_tokens[-1]
+                # Allow simple plural tolerance on the question head (e.g., dogs -> dog)
+                if q_last.endswith('s') and q_last[:-1] == topic_last:
+                    q_last = topic_last
+                if q_last == topic_last:
+                    return {
+                        "type": "answer_yes_no",
+                        "answer": "yes",
+                        "justification": None,
+                        "consistency_score": 1.0,
+                    }
         system = (
             "You are the Host in a 20 Questions game. "
             "You secretly know the topic and must answer questions strictly with yes/no/unknown. "

@@ -1,11 +1,11 @@
 {
   "result": "win",
-  "turns_used": 20,
+  "turns_used": 19,
   "guess": {
     "type": "make_guess",
     "object_id": null,
-    "object_name": "orange",
-    "confidence": 0.9
+    "object_name": "Orange",
+    "confidence": 1.0
   },
   "events": [
     {
@@ -17,7 +17,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088880053,
+      "timestamp_ms": 1761102654255,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -27,73 +27,101 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102655728,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 2,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a man-made object?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102658415,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 2,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102660080,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 3,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a natural object?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102663503,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 3,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
         "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088881578,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 2,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it an animal?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088885510,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 2,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088886619,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 3,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a fungus or bacteria?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088889246,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 3,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088891029,
+      "timestamp_ms": 1761102664824,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 4,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a mineral?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102667454,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 4,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102669017,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 5,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -101,35 +129,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088893560,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 4,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088895222,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 5,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a microorganism or virus?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088898056,
+      "timestamp_ms": 1761102671755,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -143,7 +143,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088899384,
+      "timestamp_ms": 1761102673080,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -153,11 +153,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a mineral or synthetic material?",
+        "question_text": "Is it an animal?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088902126,
+      "timestamp_ms": 1761102675594,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -171,7 +171,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088903896,
+      "timestamp_ms": 1761102677396,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -181,17 +181,73 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a food item?",
+        "question_text": "Is it a gas?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088906444,
+      "timestamp_ms": 1761102680694,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 7,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102682619,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 8,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a liquid?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102684844,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 8,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102686033,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 9,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a solid?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102688915,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 9,
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
@@ -199,13 +255,125 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088908601,
+      "timestamp_ms": 1761102690261,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
-      "turn": 8,
+      "turn": 10,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a mineral?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102692514,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 10,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102694657,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 11,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it an organic substance?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102697073,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 11,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102698334,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 12,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a type of organic material?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102702115,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 12,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102703860,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 13,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a type of food?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102706726,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 13,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102707943,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 14,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -213,13 +381,13 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088911511,
+      "timestamp_ms": 1761102710322,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
-      "turn": 8,
+      "turn": 14,
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
@@ -227,13 +395,13 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088913065,
+      "timestamp_ms": 1761102711662,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
-      "turn": 9,
+      "turn": 15,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -241,175 +409,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088915936,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 9,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088917332,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 10,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a tropical fruit?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088919906,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 10,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088921110,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 11,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a common tropical citrus fruit?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088923666,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 11,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088925098,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 12,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a common variety of tropical citrus fruit?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088928065,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 12,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088929247,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 13,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a common variety of orange?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088931590,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 13,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "unknown",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088932774,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 14,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a common variety of lime?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088935863,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 14,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088937299,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 15,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a common variety of grapefruit?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088939860,
+      "timestamp_ms": 1761102715153,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -419,11 +419,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088942232,
+      "timestamp_ms": 1761102716256,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -433,11 +433,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a common variety of lemon?",
+        "question_text": "Is it a common citrus fruit?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088944540,
+      "timestamp_ms": 1761102719215,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -447,11 +447,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088945941,
+      "timestamp_ms": 1761102720109,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -461,11 +461,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a common variety of tangerine?",
+        "question_text": "Is it a common variety of citrus fruit?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088948830,
+      "timestamp_ms": 1761102722961,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -475,11 +475,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088950071,
+      "timestamp_ms": 1761102724737,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -489,11 +489,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a common variety of pomelo?",
+        "question_text": "Is it an orange?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088952252,
+      "timestamp_ms": 1761102727587,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -503,53 +503,25 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088954014,
+      "timestamp_ms": 1761102727587,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 19,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a common variety of kumquat?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088958389,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 19,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088959633,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 20,
       "agent": "guesser",
       "action": {
         "type": "make_guess",
         "object_id": null,
-        "object_name": "orange",
-        "confidence": 0.9
+        "object_name": "Orange",
+        "confidence": 1.0
       },
-      "timestamp_ms": 1761088960904,
+      "timestamp_ms": 1761102729438,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null

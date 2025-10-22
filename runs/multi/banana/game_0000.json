@@ -1,11 +1,11 @@
 {
   "result": "win",
-  "turns_used": 14,
+  "turns_used": 20,
   "guess": {
     "type": "make_guess",
     "object_id": null,
-    "object_name": "banana",
-    "confidence": 0.9
+    "object_name": "Banana",
+    "confidence": 0.7
   },
   "events": [
     {
@@ -17,7 +17,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088880005,
+      "timestamp_ms": 1761102653860,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -31,7 +31,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088881565,
+      "timestamp_ms": 1761102655402,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -45,7 +45,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088884512,
+      "timestamp_ms": 1761102658090,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -59,7 +59,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088885893,
+      "timestamp_ms": 1761102659488,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -69,11 +69,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a fungus or bacteria?",
+        "question_text": "Is it a plant or fungus?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088888824,
+      "timestamp_ms": 1761102663026,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -87,7 +87,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088890348,
+      "timestamp_ms": 1761102664785,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -97,11 +97,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a plant?",
+        "question_text": "Is it a microorganism?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088892552,
+      "timestamp_ms": 1761102667134,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -115,7 +115,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088893771,
+      "timestamp_ms": 1761102668569,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -125,11 +125,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a microorganism or virus?",
+        "question_text": "Is it a virus or prion?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088896580,
+      "timestamp_ms": 1761102671922,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -143,7 +143,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088898268,
+      "timestamp_ms": 1761102673542,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -153,11 +153,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a mineral or synthetic material?",
+        "question_text": "Is it a synthetic material?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088901491,
+      "timestamp_ms": 1761102675892,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -171,7 +171,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088902985,
+      "timestamp_ms": 1761102677095,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -181,17 +181,101 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a food item?",
+        "question_text": "Is it a mineral?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088906624,
+      "timestamp_ms": 1761102679747,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 7,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102681738,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 8,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a gas or liquid?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102684097,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 8,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102686041,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 9,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a chemical compound?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102688370,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 9,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102689664,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 10,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it food?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102692758,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 10,
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
@@ -199,13 +283,13 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088907967,
+      "timestamp_ms": 1761102696657,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
-      "turn": 8,
+      "turn": 11,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -213,91 +297,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088910336,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 8,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088911573,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 9,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a common fruit?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088914123,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 9,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088915665,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 10,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a tropical fruit?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088918884,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 10,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088920531,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 11,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a berry?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088923100,
+      "timestamp_ms": 1761102699972,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -311,7 +311,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088924649,
+      "timestamp_ms": 1761102701100,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -321,11 +321,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a strawberry or raspberry?",
+        "question_text": "Is it a citrus fruit?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088927767,
+      "timestamp_ms": 1761102703241,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -339,7 +339,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088929384,
+      "timestamp_ms": 1761102705149,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -349,11 +349,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a banana or mango?",
+        "question_text": "Is it a berry?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088932837,
+      "timestamp_ms": 1761102707719,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -367,7 +367,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088934125,
+      "timestamp_ms": 1761102709102,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -376,12 +376,180 @@
       "turn": 14,
       "agent": "guesser",
       "action": {
+        "type": "ask_question",
+        "question_text": "Is it a stone fruit?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102711295,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 14,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102712617,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 15,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a tropical berry?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102715005,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 15,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102716387,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 16,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a common berry?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102718778,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 16,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102720452,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 17,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a common tropical berry?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102722972,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 17,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102724631,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 18,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a common tropical berry?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102726870,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 18,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102727892,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 19,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a common tropical berry?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102731201,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 19,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102732213,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 20,
+      "agent": "guesser",
+      "action": {
         "type": "make_guess",
         "object_id": null,
-        "object_name": "banana",
-        "confidence": 0.9
+        "object_name": "Banana",
+        "confidence": 0.7
       },
-      "timestamp_ms": 1761088936767,
+      "timestamp_ms": 1761102733499,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null

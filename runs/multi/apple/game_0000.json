@@ -5,7 +5,7 @@
     "type": "make_guess",
     "object_id": null,
     "object_name": "apple",
-    "confidence": 0.9
+    "confidence": 1.0
   },
   "events": [
     {
@@ -17,7 +17,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088879917,
+      "timestamp_ms": 1761102653808,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -31,7 +31,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088881347,
+      "timestamp_ms": 1761102655063,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -45,7 +45,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088883667,
+      "timestamp_ms": 1761102658021,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -59,41 +59,13 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088885432,
+      "timestamp_ms": 1761102660074,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 3,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a fungus or bacteria?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088887992,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 3,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088889534,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 4,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -101,7 +73,35 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088892364,
+      "timestamp_ms": 1761102663134,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 3,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102664776,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 4,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a fungus or microorganism?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102666888,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -115,7 +115,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088893836,
+      "timestamp_ms": 1761102668424,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -125,11 +125,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a microorganism or virus?",
+        "question_text": "Is it a mineral or non-living thing?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088896380,
+      "timestamp_ms": 1761102672868,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -143,7 +143,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088897841,
+      "timestamp_ms": 1761102674390,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -153,11 +153,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a mineral or synthetic material?",
+        "question_text": "Is it a synthetic object?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088900363,
+      "timestamp_ms": 1761102676597,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -171,7 +171,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088901418,
+      "timestamp_ms": 1761102678099,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -185,7 +185,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088905145,
+      "timestamp_ms": 1761102681524,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -199,7 +199,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088906579,
+      "timestamp_ms": 1761102682608,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -213,7 +213,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088909059,
+      "timestamp_ms": 1761102686206,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -227,7 +227,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088910604,
+      "timestamp_ms": 1761102687416,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -241,7 +241,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088913616,
+      "timestamp_ms": 1761102689610,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -255,7 +255,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088916106,
+      "timestamp_ms": 1761102690930,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -269,7 +269,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088918780,
+      "timestamp_ms": 1761102694215,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -283,7 +283,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088919972,
+      "timestamp_ms": 1761102696507,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -297,7 +297,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088924040,
+      "timestamp_ms": 1761102698746,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -311,7 +311,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088925637,
+      "timestamp_ms": 1761102700068,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -325,7 +325,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088928409,
+      "timestamp_ms": 1761102703813,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -339,97 +339,13 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088930234,
+      "timestamp_ms": 1761102705011,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 13,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a melon?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088932766,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 13,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088934818,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 14,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a vegetable?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088937187,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 14,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088938407,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 15,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a drupe?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761088941815,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 15,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761088943206,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 16,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -437,13 +353,13 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088945820,
+      "timestamp_ms": 1761102707404,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
-      "turn": 16,
+      "turn": 13,
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
@@ -451,7 +367,77 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088947039,
+      "timestamp_ms": 1761102709670,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 14,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it commonly found in grocery stores?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102712371,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 14,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102713589,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 15,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it an apple or banana?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761102715999,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 15,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761102717266,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 16,
+      "agent": "guesser",
+      "action": {
+        "type": "make_guess",
+        "object_id": null,
+        "object_name": "banana",
+        "confidence": 0.9
+      },
+      "timestamp_ms": 1761102719524,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -461,11 +447,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it an apple or a pear?",
+        "question_text": "Is it an apple?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761088949569,
+      "timestamp_ms": 1761102721147,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -479,7 +465,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761088951138,
+      "timestamp_ms": 1761102721147,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -491,9 +477,9 @@
         "type": "make_guess",
         "object_id": null,
         "object_name": "apple",
-        "confidence": 0.9
+        "confidence": 1.0
       },
-      "timestamp_ms": 1761088953804,
+      "timestamp_ms": 1761102723577,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null

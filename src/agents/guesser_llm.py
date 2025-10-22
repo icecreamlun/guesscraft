@@ -92,7 +92,8 @@ class GuesserLLM:
             "Return true only if you can name a single concrete topic with high confidence.\n"
             "Never return true for broad categories (e.g., 'ornamental tree').\n"
             "Prefer to ask more questions if your best candidate is a category or long descriptive phrase.\n"
-            "Use a frequency-prior × confidence heuristic: when a class is likely, prefer common, everyday, non-specialized objects for the first guess."
+            "Use a frequency-prior × confidence heuristic: when a class is likely, prefer common, everyday, non-specialized objects for the first guess.\n"
+            "Your decision must be consistent with all prior YES/NO answers."
         )
         prev = ", ".join(self.state.attempted_guesses[-5:]) or "(none)"
         recent_list = self._recent_questions_text()
@@ -100,8 +101,8 @@ class GuesserLLM:
             "History (latest first):\n" + self._history_text() + "\n\n"
             + "Scratchpad so far:\n" + "\n".join(self.state.scratchpad[-12:]) + "\n\n"
             + "Decision rules:\n"
-            + "- Only GUESS when a specific proper/common noun stands out (e.g., 'apple', 'Eiffel Tower').\n"
-            + "- Do NOT guess categories (e.g., 'ornamental tree').\n"
+            + "- Only GUESS when a specific proper/common noun stands out.\n"
+            + "- Do NOT guess categories.\n"
             + f"Turns used: {questions_used}; Remaining: {remaining}\n"
             + f"Do not repeat previous guesses: {prev}\n"
             + f"Previously asked (normalized): {recent_list}"
@@ -161,6 +162,7 @@ class GuesserLLM:
             "Return a short, canonical name only (<= 2 words), no sentences, no adjectives.\n"
             "If your best candidate is only a broad category, do NOT guess (unless forced by budget).\n"
             "Use a frequency-prior × confidence heuristic: within the current class, prefer common, everyday, non-specialized objects for the first guess; consider less common only after common are eliminated.\n"
+            "Your guess must be consistent with every prior YES/NO answer.\n"
             "Output JSON only with thought (optional), guess_text and confidence. Do not repeat prior guesses."
         )
         prev = ", ".join(self.state.attempted_guesses[-8:]) or "(none)"
