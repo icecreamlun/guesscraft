@@ -1,11 +1,11 @@
 {
   "result": "win",
-  "turns_used": 11,
+  "turns_used": 13,
   "guess": {
     "type": "make_guess",
     "object_id": null,
-    "object_name": "whale",
-    "confidence": 0.9
+    "object_name": "Humpback Whale",
+    "confidence": 0.8
   },
   "events": [
     {
@@ -13,11 +13,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a living organism?",
+        "question_text": "Is it a living thing?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102654251,
+      "timestamp_ms": 1761242554604,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -31,7 +31,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102656134,
+      "timestamp_ms": 1761242556430,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -45,7 +45,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102659486,
+      "timestamp_ms": 1761242560958,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -59,7 +59,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102661131,
+      "timestamp_ms": 1761242562140,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -73,7 +73,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102663813,
+      "timestamp_ms": 1761242565277,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -87,7 +87,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102665021,
+      "timestamp_ms": 1761242567077,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -97,11 +97,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Does it give live birth?",
+        "question_text": "Is it a domesticated animal?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102668504,
+      "timestamp_ms": 1761242570755,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -111,17 +111,73 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "yes",
+        "answer": "no",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102669605,
+      "timestamp_ms": 1761242572055,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 5,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it larger than a human?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761242575970,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 5,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761242578525,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 6,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it typically found in the wild?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761242582349,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 6,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761242585107,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 7,
       "agent": "guesser",
       "action": {
         "type": "ask_question",
@@ -129,13 +185,13 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102672379,
+      "timestamp_ms": 1761242587951,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
-      "turn": 5,
+      "turn": 7,
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
@@ -143,63 +199,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102673873,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 6,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a primate?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761102676112,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 6,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761102677591,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 7,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a big cat?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761102679829,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 7,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761102681039,
+      "timestamp_ms": 1761242589221,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -209,11 +209,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a marine animal?",
+        "question_text": "Is it primarily found in aquatic environments?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102684108,
+      "timestamp_ms": 1761242593393,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -227,7 +227,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102685316,
+      "timestamp_ms": 1761242594795,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -236,26 +236,12 @@
       "turn": 9,
       "agent": "guesser",
       "action": {
-        "type": "ask_question",
-        "question_text": "Is it a dolphin?",
-        "attribute_id": null,
-        "confidence": 1.0
+        "type": "make_guess",
+        "object_id": null,
+        "object_name": "Orca",
+        "confidence": 0.9
       },
-      "timestamp_ms": 1761102688111,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 9,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "no",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761102689543,
+      "timestamp_ms": 1761242611612,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -265,11 +251,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a whale?",
+        "question_text": "Is it a type of whale?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102692108,
+      "timestamp_ms": 1761242614523,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -283,7 +269,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102692108,
+      "timestamp_ms": 1761242614523,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -292,12 +278,68 @@
       "turn": 11,
       "agent": "guesser",
       "action": {
+        "type": "ask_question",
+        "question_text": "Is it known for its black and white coloring?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761242618325,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 11,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "unknown",
+        "justification": null,
+        "consistency_score": 0.9
+      },
+      "timestamp_ms": 1761242619675,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 12,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it known for its distinctive vocalizations?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761242622960,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 12,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761242624402,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 13,
+      "agent": "guesser",
+      "action": {
         "type": "make_guess",
         "object_id": null,
-        "object_name": "whale",
-        "confidence": 0.9
+        "object_name": "Humpback Whale",
+        "confidence": 0.8
       },
-      "timestamp_ms": 1761102694471,
+      "timestamp_ms": 1761242634284,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null

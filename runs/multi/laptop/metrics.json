@@ -2,6 +2,6 @@
   "games": 1,
   "wins": 1,
   "win_rate": 1.0,
-  "mean_turns": 13.0,
-  "mean_turns_wins": 13.0
+  "mean_turns": 20.0,
+  "mean_turns_wins": 20.0
 }

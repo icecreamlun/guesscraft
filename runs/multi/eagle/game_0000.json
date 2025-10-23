@@ -1,11 +1,11 @@
 {
   "result": "win",
-  "turns_used": 11,
+  "turns_used": 13,
   "guess": {
     "type": "make_guess",
     "object_id": null,
     "object_name": "Bald Eagle",
-    "confidence": 0.7
+    "confidence": 0.85
   },
   "events": [
     {
@@ -13,11 +13,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a living organism?",
+        "question_text": "Is it a living thing?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102655152,
+      "timestamp_ms": 1761242558437,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -31,7 +31,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102656540,
+      "timestamp_ms": 1761242559869,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -45,7 +45,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102659741,
+      "timestamp_ms": 1761242564147,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -59,7 +59,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102661205,
+      "timestamp_ms": 1761242565566,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -73,7 +73,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102663862,
+      "timestamp_ms": 1761242572493,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -87,7 +87,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102665420,
+      "timestamp_ms": 1761242574076,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -101,7 +101,7 @@
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102667833,
+      "timestamp_ms": 1761242579141,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -115,7 +115,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102669182,
+      "timestamp_ms": 1761242580722,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -125,11 +125,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a flightless bird?",
+        "question_text": "Is it a water bird?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102671924,
+      "timestamp_ms": 1761242584291,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -143,7 +143,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102674647,
+      "timestamp_ms": 1761242585525,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -153,11 +153,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a waterbird?",
+        "question_text": "Is it commonly found in urban areas?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102680698,
+      "timestamp_ms": 1761242589315,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -169,9 +169,9 @@
         "type": "answer_yes_no",
         "answer": "no",
         "justification": null,
-        "consistency_score": 1.0
+        "consistency_score": 0.9
       },
-      "timestamp_ms": 1761102682039,
+      "timestamp_ms": 1761242591527,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -181,17 +181,45 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a songbird?",
+        "question_text": "Is it a bird of prey?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102687813,
+      "timestamp_ms": 1761242596385,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
     },
     {
       "turn": 7,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761242597864,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 8,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a nocturnal bird?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761242605934,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 8,
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
@@ -199,35 +227,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102688910,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 8,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a raptor?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761102691472,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 8,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761102693095,
+      "timestamp_ms": 1761242607590,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -237,11 +237,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a large raptor?",
+        "question_text": "Is it commonly found in forests?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102695805,
+      "timestamp_ms": 1761242612048,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -253,9 +253,9 @@
         "type": "answer_yes_no",
         "answer": "yes",
         "justification": null,
-        "consistency_score": 1.0
+        "consistency_score": 0.9
       },
-      "timestamp_ms": 1761102697727,
+      "timestamp_ms": 1761242614140,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -265,11 +265,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a type of eagle?",
+        "question_text": "Is it a type of hawk or eagle?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102700027,
+      "timestamp_ms": 1761242617114,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -283,7 +283,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102700027,
+      "timestamp_ms": 1761242617115,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -292,12 +292,68 @@
       "turn": 11,
       "agent": "guesser",
       "action": {
+        "type": "ask_question",
+        "question_text": "Is it a type of eagle?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761242620320,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 11,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761242620320,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 12,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it known for its large size?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761242623557,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 12,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761242625159,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 13,
+      "agent": "guesser",
+      "action": {
         "type": "make_guess",
         "object_id": null,
         "object_name": "Bald Eagle",
-        "confidence": 0.7
+        "confidence": 0.85
       },
-      "timestamp_ms": 1761102702179,
+      "timestamp_ms": 1761242641732,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null

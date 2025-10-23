@@ -23,7 +23,7 @@ def run_one(config_path: str | None) -> Dict[str, Any]:
         with open(config_path, "r", encoding="utf-8") as f:
             config = yaml.safe_load(f) or {}
 
-    model = config.get("model", os.getenv("MODEL_NAME", "gpt-5"))
+    model = config.get("model", os.getenv("MODEL_NAME", "gpt-4o"))
     # Allow separate models per agent
     model_host = config.get("model_host", os.getenv("MODEL_HOST", model))
     model_guesser = config.get("model_guesser", os.getenv("MODEL_GUESSER", model))

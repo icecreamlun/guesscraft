@@ -4,8 +4,8 @@
   "guess": {
     "type": "make_guess",
     "object_id": null,
-    "object_name": "mural",
-    "confidence": 0.7
+    "object_name": "projector",
+    "confidence": 0.85
   },
   "events": [
     {
@@ -13,11 +13,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a living organism?",
+        "question_text": "Is it a living thing?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102653385,
+      "timestamp_ms": 1761242557984,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -31,7 +31,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102655512,
+      "timestamp_ms": 1761242560589,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -41,11 +41,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a man-made object?",
+        "question_text": "Is it man-made?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102658007,
+      "timestamp_ms": 1761242564058,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -59,7 +59,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102660079,
+      "timestamp_ms": 1761242565628,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -69,11 +69,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a tool or appliance?",
+        "question_text": "Is it a type of technology or tool?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102663956,
+      "timestamp_ms": 1761242570262,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -87,7 +87,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102665567,
+      "timestamp_ms": 1761242571905,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -97,11 +97,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a decorative item?",
+        "question_text": "Is it used for art or decoration?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102668522,
+      "timestamp_ms": 1761242575805,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -111,11 +111,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
-        "consistency_score": 1.0
+        "consistency_score": 0.9
       },
-      "timestamp_ms": 1761102669980,
+      "timestamp_ms": 1761242577331,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -125,11 +125,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a piece of furniture?",
+        "question_text": "Is it primarily decorative?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102672709,
+      "timestamp_ms": 1761242582285,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -143,7 +143,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102674300,
+      "timestamp_ms": 1761242584666,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -153,11 +153,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it an electronic device?",
+        "question_text": "Is it used for a specific practical purpose?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102676676,
+      "timestamp_ms": 1761242587834,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -167,11 +167,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102678566,
+      "timestamp_ms": 1761242589105,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -181,11 +181,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a container or storage item?",
+        "question_text": "Is it used in the household?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102681550,
+      "timestamp_ms": 1761242594005,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -199,7 +199,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102683466,
+      "timestamp_ms": 1761242596113,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -209,11 +209,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a toy or game?",
+        "question_text": "Is it used outdoors?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102686457,
+      "timestamp_ms": 1761242604716,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -223,11 +223,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102688356,
+      "timestamp_ms": 1761242606344,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -237,11 +237,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a piece of art?",
+        "question_text": "Is it used for sports or recreational activities?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102690688,
+      "timestamp_ms": 1761242609498,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -251,11 +251,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "yes",
+        "answer": "no",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102691898,
+      "timestamp_ms": 1761242611002,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -265,11 +265,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a painting or sculpture?",
+        "question_text": "Is it used for construction or maintenance?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102694321,
+      "timestamp_ms": 1761242614031,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -283,7 +283,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102695992,
+      "timestamp_ms": 1761242615474,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -293,11 +293,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a print or photograph?",
+        "question_text": "Is it used for transportation or travel?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102699166,
+      "timestamp_ms": 1761242618998,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -311,7 +311,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102700262,
+      "timestamp_ms": 1761242620296,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -321,11 +321,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a craft or installation?",
+        "question_text": "Is it used for gardening or landscaping?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102702522,
+      "timestamp_ms": 1761242624214,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -335,11 +335,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "yes",
+        "answer": "no",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102703623,
+      "timestamp_ms": 1761242625708,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -349,11 +349,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a functional craft or decorative installation?",
+        "question_text": "Is it used for safety or protection outdoors?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102706062,
+      "timestamp_ms": 1761242628631,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -363,11 +363,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "unknown",
+        "answer": "no",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102707168,
+      "timestamp_ms": 1761242629740,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -377,11 +377,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a functional craft?",
+        "question_text": "Is it used for entertainment or events?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102709390,
+      "timestamp_ms": 1761242633395,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -391,11 +391,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "no",
+        "answer": "yes",
         "justification": null,
-        "consistency_score": 1.0
+        "consistency_score": 0.9
       },
-      "timestamp_ms": 1761102710777,
+      "timestamp_ms": 1761242634797,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -405,11 +405,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a decorative installation?",
+        "question_text": "Is it used for music or sound at events?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102713303,
+      "timestamp_ms": 1761242637796,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -419,95 +419,81 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761102714483,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 16,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a type of installation?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761102716940,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 16,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761102718151,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 17,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a type of installation?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761102720785,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 17,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
-        "answer": "yes",
-        "justification": null,
-        "consistency_score": 1.0
-      },
-      "timestamp_ms": 1761102721806,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 18,
-      "agent": "guesser",
-      "action": {
-        "type": "ask_question",
-        "question_text": "Is it a temporary installation?",
-        "attribute_id": null,
-        "confidence": 1.0
-      },
-      "timestamp_ms": 1761102724195,
-      "latency_ms": null,
-      "tokens_in": null,
-      "tokens_out": null
-    },
-    {
-      "turn": 18,
-      "agent": "host",
-      "action": {
-        "type": "answer_yes_no",
         "answer": "no",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102725354,
+      "timestamp_ms": 1761242640968,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 16,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it used for visual displays or lighting at events?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761242644309,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 16,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 0.9
+      },
+      "timestamp_ms": 1761242645584,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 17,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it used for visual effects or projections at events?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761242651209,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 17,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "yes",
+        "justification": null,
+        "consistency_score": 0.9
+      },
+      "timestamp_ms": 1761242653484,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 18,
+      "agent": "guesser",
+      "action": {
+        "type": "make_guess",
+        "object_id": null,
+        "object_name": "projector screen",
+        "confidence": 0.85
+      },
+      "timestamp_ms": 1761242657766,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -517,11 +503,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it an interactive installation?",
+        "question_text": "Is it a type of screen or display?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102728374,
+      "timestamp_ms": 1761242659978,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -535,7 +521,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102729569,
+      "timestamp_ms": 1761242662846,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -546,10 +532,10 @@
       "action": {
         "type": "make_guess",
         "object_id": null,
-        "object_name": "mural",
-        "confidence": 0.7
+        "object_name": "projector",
+        "confidence": 0.85
       },
-      "timestamp_ms": 1761102730585,
+      "timestamp_ms": 1761242665375,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null

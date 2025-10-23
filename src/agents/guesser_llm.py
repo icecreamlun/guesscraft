@@ -66,7 +66,7 @@ class GuesserLLM:
         if not self.state.history:
             return "(no questions asked yet)"
         lines = []
-        for qa in self.state.history[-12:]:  # cap context
+        for qa in self.state.history[-20:]:  # cap context
             lines.append(f"Q: {qa.question}\nA: {qa.answer}")
         return "\n".join(lines)
 

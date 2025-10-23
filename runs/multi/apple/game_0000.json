@@ -1,11 +1,11 @@
 {
-  "result": "win",
-  "turns_used": 18,
+  "result": "lose",
+  "turns_used": 20,
   "guess": {
     "type": "make_guess",
     "object_id": null,
-    "object_name": "apple",
-    "confidence": 1.0
+    "object_name": "amber",
+    "confidence": 0.3
   },
   "events": [
     {
@@ -13,11 +13,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a living organism?",
+        "question_text": "Is it a living thing?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102653808,
+      "timestamp_ms": 1761242555154,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -27,11 +27,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "yes",
+        "answer": "no",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102655063,
+      "timestamp_ms": 1761242557122,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -41,11 +41,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it an animal?",
+        "question_text": "Is it man-made?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102658021,
+      "timestamp_ms": 1761242560555,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -59,7 +59,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102660074,
+      "timestamp_ms": 1761242562145,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -69,11 +69,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a plant?",
+        "question_text": "Is it a mineral or rock?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102663134,
+      "timestamp_ms": 1761242566330,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -87,7 +87,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102664776,
+      "timestamp_ms": 1761242567520,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -97,11 +97,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a fungus or microorganism?",
+        "question_text": "Is it a plant or part of a plant?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102666888,
+      "timestamp_ms": 1761242570697,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -115,7 +115,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102668424,
+      "timestamp_ms": 1761242572576,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -125,11 +125,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a mineral or non-living thing?",
+        "question_text": "Is it a liquid?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102672868,
+      "timestamp_ms": 1761242575867,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -143,7 +143,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102674390,
+      "timestamp_ms": 1761242577358,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -153,11 +153,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a synthetic object?",
+        "question_text": "Is it a gas?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102676597,
+      "timestamp_ms": 1761242580854,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -171,7 +171,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102678099,
+      "timestamp_ms": 1761242582160,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -181,11 +181,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a food item?",
+        "question_text": "Is it a type of solid object?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102681524,
+      "timestamp_ms": 1761242586478,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -199,7 +199,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102682608,
+      "timestamp_ms": 1761242588214,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -209,11 +209,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a fruit?",
+        "question_text": "Is it a type of metal?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102686206,
+      "timestamp_ms": 1761242592924,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -223,11 +223,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "yes",
+        "answer": "no",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102687416,
+      "timestamp_ms": 1761242594821,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -237,11 +237,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a citrus fruit?",
+        "question_text": "Is it a type of wood?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102689610,
+      "timestamp_ms": 1761242597835,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -255,7 +255,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102690930,
+      "timestamp_ms": 1761242599140,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -265,11 +265,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a berry?",
+        "question_text": "Is it a type of stone?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102694215,
+      "timestamp_ms": 1761242601979,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -283,7 +283,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102696507,
+      "timestamp_ms": 1761242603677,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -293,11 +293,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a stone fruit?",
+        "question_text": "Is it a type of crystal?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102698746,
+      "timestamp_ms": 1761242606168,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -311,7 +311,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102700068,
+      "timestamp_ms": 1761242607465,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -321,11 +321,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a tropical fruit?",
+        "question_text": "Is it a type of soil?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102703813,
+      "timestamp_ms": 1761242611206,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -339,7 +339,7 @@
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102705011,
+      "timestamp_ms": 1761242613808,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -349,11 +349,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it a common fruit?",
+        "question_text": "Is it a type of ice?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102707404,
+      "timestamp_ms": 1761242618165,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -363,11 +363,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "yes",
+        "answer": "no",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102709670,
+      "timestamp_ms": 1761242619939,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -377,11 +377,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it commonly found in grocery stores?",
+        "question_text": "Is it a type of clay?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102712371,
+      "timestamp_ms": 1761242623137,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -391,11 +391,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "yes",
+        "answer": "no",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102713589,
+      "timestamp_ms": 1761242624225,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -405,11 +405,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it an apple or banana?",
+        "question_text": "Is it a type of sand?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102715999,
+      "timestamp_ms": 1761242627215,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -419,11 +419,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "yes",
+        "answer": "no",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102717266,
+      "timestamp_ms": 1761242628928,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -432,12 +432,26 @@
       "turn": 16,
       "agent": "guesser",
       "action": {
-        "type": "make_guess",
-        "object_id": null,
-        "object_name": "banana",
-        "confidence": 0.9
+        "type": "ask_question",
+        "question_text": "Is it a type of salt?",
+        "attribute_id": null,
+        "confidence": 1.0
       },
-      "timestamp_ms": 1761102719524,
+      "timestamp_ms": 1761242631886,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 16,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761242633392,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -447,11 +461,11 @@
       "agent": "guesser",
       "action": {
         "type": "ask_question",
-        "question_text": "Is it an apple?",
+        "question_text": "Is it a type of glass?",
         "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102721147,
+      "timestamp_ms": 1761242637954,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -461,11 +475,11 @@
       "agent": "host",
       "action": {
         "type": "answer_yes_no",
-        "answer": "yes",
+        "answer": "no",
         "justification": null,
         "consistency_score": 1.0
       },
-      "timestamp_ms": 1761102721147,
+      "timestamp_ms": 1761242639243,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
@@ -474,12 +488,68 @@
       "turn": 18,
       "agent": "guesser",
       "action": {
-        "type": "make_guess",
-        "object_id": null,
-        "object_name": "apple",
+        "type": "ask_question",
+        "question_text": "Is it a type of fossil?",
+        "attribute_id": null,
         "confidence": 1.0
       },
-      "timestamp_ms": 1761102723577,
+      "timestamp_ms": 1761242642609,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 18,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761242644286,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 19,
+      "agent": "guesser",
+      "action": {
+        "type": "ask_question",
+        "question_text": "Is it a type of shell?",
+        "attribute_id": null,
+        "confidence": 1.0
+      },
+      "timestamp_ms": 1761242648327,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 19,
+      "agent": "host",
+      "action": {
+        "type": "answer_yes_no",
+        "answer": "no",
+        "justification": null,
+        "consistency_score": 1.0
+      },
+      "timestamp_ms": 1761242649571,
+      "latency_ms": null,
+      "tokens_in": null,
+      "tokens_out": null
+    },
+    {
+      "turn": 20,
+      "agent": "guesser",
+      "action": {
+        "type": "make_guess",
+        "object_id": null,
+        "object_name": "amber",
+        "confidence": 0.3
+      },
+      "timestamp_ms": 1761242656535,
       "latency_ms": null,
       "tokens_in": null,
       "tokens_out": null
